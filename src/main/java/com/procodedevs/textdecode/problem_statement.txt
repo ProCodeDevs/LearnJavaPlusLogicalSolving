@@ -1,0 +1,41 @@
+Task 30-06-2021:
+
+You have to help police to decode a smuggler's message.
+
+Hope you all know Keypad phones .. He defined his own logic to encode a text by the numbers..
+
+Eg.
+a string named "vicky" is being encoded as "88844422255999"
+
+Explanation:
+
+By pressing 8 three times => You will get "v"
+Pressing 4 three times => you will get "i"
+
+Like wise it will go .... 
+
+
+Eg 2:
+
+ammu => 26#688
+abi => 2#22444
+
+Explanation:
+When you are about to press the same key with a time delay .. You have to use "#"
+
+Is there any doubt regarding this .. let me know .. 
+
+Just think of  a logic .. Try to design it if possible .. 
+
+We will do it lively ... tomorrow .. If you are unable to do ... 
+
+Happy coding .... !!!
+
+
+
+Update Problem statement : 
+1. Add Decoder Class as Super class
+2. Add ASCII Decoder to the following decoding login
+   Input: 97-98-99-48-49
+   Output: abc01
+3. Add KeyPadDecoder for decoding the above mentioned question.
