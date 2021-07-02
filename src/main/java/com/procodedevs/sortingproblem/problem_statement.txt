@@ -1,0 +1,1 @@
+To find the given Array is ascending or descending or randomly ordered
