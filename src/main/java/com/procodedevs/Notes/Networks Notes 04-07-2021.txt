@@ -1,0 +1,54 @@
+1. Network adapters... Like wifi , ethernet .. every adapter can connect to different network with different IP .. Where IP is unique to that network
+
+2. DHCP ... It helps to obtain IP address from our modem ...
+
+3. DNS ... the server that helps to translates  ... Say www.google.com will resolved to some IP....
+
+4. Manually changing IP adress for our own purpose without using default DHCP
+
+5. Connecting to VPN .. has some issue will resolve it.
+
+6. How a VPN works .. diagram that explains .. a network adapter virtually installed in windows which connect our systems through internet .. virtually look like we are locally connected
+
+7. Windows remote .. taking another system remote pc ..
+
+8. File sharing in windows networks
+
+9. Ports and how it works
+
+10. Preventing an application from connecting network using firewall
+
+11. Using Npm http server to share static files.
+
+12. Try connecting using same ports ... Error will thrown in this case ... These errors are managed by OS.
+
+13. using netstat command to list all ports used by a process id 
+
+14. Listing and killing processes by using process id.
+
+15. Public DNS server served by Google .. 8.8.8.8 and 8.8.4.4
+
+
+Commands used today:
+1. taskmgr
+To open task manager
+
+2. netstat -aon
+List the network ports used by process
+
+3. nslookup www.google.com
+DNS resolve a name to address
+
+4. tasklist
+To print all running process with I'd
+
+5. mstsc
+To take a remote another pc
+
+6. tskill 6786
+To kill a process with process id 6786
+
+
+Shortcuts :
+Win + R
+Win + E
