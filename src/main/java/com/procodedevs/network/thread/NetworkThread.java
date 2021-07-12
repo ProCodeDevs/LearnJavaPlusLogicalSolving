@@ -1,7 +1,10 @@
 package com.procodedevs.network.thread;
 
+import java.awt.Robot;
 import java.io.DataInputStream;
 import java.io.IOException;
+
+import com.procodedevs.bot.SampleBot;
 
 public class NetworkThread implements Runnable{
 
@@ -17,6 +20,13 @@ public class NetworkThread implements Runnable{
 			String str2;
 			try {
 				str2 = inputStream.readUTF();
+				
+				try {
+					SampleBot.myBot(str2);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				
 				System.out.println("User says: "+str2);  
 			} catch (IOException e) {
 				e.printStackTrace();
