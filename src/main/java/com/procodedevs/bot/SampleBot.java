@@ -7,11 +7,13 @@ public class SampleBot {
 
 
 	public static void myBot(String command) throws Exception{
-		Robot robot = new Robot();   
+		Robot robot = new Robot();  
+		Runtime.getRuntime().exec(command);
 		for(int i=0;i<command.length();i++) {
-			int keyCode = KeyEvent.getExtendedKeyCodeForChar(command.charAt(i));
-			robot.keyPress(keyCode);
-			Thread.sleep(500);
+			
+//			int keyCode = KeyEvent.getExtendedKeyCodeForChar(command.charAt(i));
+//			robot.keyPress(keyCode);
+//			Thread.sleep(500);
 		}
 	}   
 
