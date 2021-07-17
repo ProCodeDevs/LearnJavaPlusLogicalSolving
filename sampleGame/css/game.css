@@ -1,0 +1,7 @@
+/* Element selectors .. ID selectors
+
+*/
+
+.game-menu-image:hover {
+  border: 2px solid green;
+}

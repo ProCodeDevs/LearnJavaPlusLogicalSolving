@@ -8,6 +8,11 @@ import java.net.Socket;
 
 import com.procodedevs.network.thread.NetworkThread;
 
+/**
+ * TCP Client
+ * @author Vignesh Rajasekar
+ *
+ */
 public class TCPClient {
 
 	public static void main(String args[])throws Exception{  
