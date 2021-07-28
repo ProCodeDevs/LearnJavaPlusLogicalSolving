@@ -23,8 +23,20 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/game.js"></script>
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Stone paper scissor</title>
+    <style>
+      .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.marginTop{
+  margin-top: 60px;
+}
+    </style>
   </head>
   <body>
     <div id="room-full" style="display: none;">
@@ -33,23 +45,32 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <div>
-            <img src="images/stone.png" width="300px" height="300px" />
+          <div style="text-align: center;">
+            Player ID: <span id="player-id"></span>
           </div>
-            <div class="row">
+          <div class="center">
+            <img id="image-holder-1" width="300px" height="300px" />
+          </div>
+            <div class="row marginTop">
                 <div class="col">
-                <img id="stone" src="images/stone.png" width="150px" height="150px" />
+                <img id="stone" class="selector-image" src="images/stone.png" width="150px" height="150px" />
                 </div>
                 <div class="col"> 
-                <img id="paper" src="images/paper.png" width="150px" height="150px" />
+                <img id="paper" class="selector-image"  src="images/paper.png" width="150px" height="150px" />
             </div>
                 <div class="col">
-                <img id="scissor" src="images/scissor.png" width="150px" height="150px" />
+                <img id="scissor" class="selector-image"  src="images/scissor.png" width="150px" height="150px" />
             </div>
               </div>
         </div>
         <div class="col"><div>
-          <img src="images/stone.png" width="300px" height="300px" />
+          <div style="text-align: center;">
+            Your oppponent</span>
+          </div>
+          <div class="center">
+            <img width="300px" height="300px" />
+          </div>
+          
         </div></div>
       </div>
     </div>
